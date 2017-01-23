@@ -1,22 +1,30 @@
-form.formulaire1 {
-
+form {
+    margin-bottom: 2em;
+    width: 40em;
 }
 
 fieldset {
-    width: 40em;
+    padding-left: 2em;
+}
+
+em {
+    color: red;
 }
 
 #formulaire1 label {
     display: block;
-    margin-left: 1em;
+    margin-top: 0.5em;
     font-weight: bold;
 }
 
-input {
+#formulaire1 label#fname {
+    margin-top: 1em;
+}
+
+#formulaire1 input {
 border: solid 1px #bebebe;
 height: 2em;
-margin: 0.5em auto;
-margin-left: 1em;
+margin: 0.5em 0;
 }
 
 #formulaire1 input#fname2 {
@@ -29,6 +37,7 @@ margin-left: 1em;
 #formulaire1 input#submit {
     display: block;
     background-color: #4b99ad;
+    border: 1px solid #4b99ad;
     height: 3em;
     color: white;
 }
@@ -37,10 +46,200 @@ margin-left: 1em;
     border: 1px solid #bebebe;
     height: 2.5em;
     width: 32.3em;
-    margin: 1em 0 1em 1em;
+    margin: 0.5em 0 1em 0;
     background-color: #dddddd;
 }
 
 #formulaire1 textarea {
-    margin-left: 1em;
+}
+
+#formulaire2 fieldset {
+}
+
+#formulaire2 p {
+    border-bottom: 3px solid #dddddd;
+    width: 30em;
+    font-weight: bold;
+}
+
+#formulaire2 label {
+    margin-right: 1em;
+    display: inline-block;
+    margin-top: 1.5em;
+}
+
+#formulaire2 #tel {
+    width: 2.9em;
+}
+
+#formulaire2 label {
+    font-weight: bold;
+}
+
+#formulaire2 label#message {
+    margin: auto;
+    vertical-align: top;
+}
+
+#formulaire2 div {
+    margin-top: 1.5em;
+}
+
+#formulaire2 input {
+    margin-right: 12em;
+    margin-left: 5em;
+}
+
+#formulaire2 input#phone1 {
+    margin-left: 6.2em;
+    margin-right: 0;
+    width: 2em;
+}
+
+#formulaire2 input#phone2 {
+    width: 2em;
+    margin: 0;
+}
+
+#formulaire2 input#phone3 {
+    margin: 0 16em 0 0;
+    width: 2em;
+}
+
+#formulaire2 select {
+    background-color: #dddddd;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    height: 3em;
+    margin-left: 3em;
+    margin-right: 21em;
+    width: 8em;
+}
+
+#formulaire2 textarea {
+    margin-left: 5.5em;
+    display: inline;
+    vertical-align: top;
+}
+
+#formulaire2 input#submit {
+    background-color: #ff8500;
+    border: 1px solid #ff8500;
+    border-radius: 8px;
+    color: white;
+    height: 3em;
+    width: 6em;
+    margin-left: 10em;
+    margin-top: 1em;
+}
+
+
+
+#formulaire3 {
+    color: #f392bc;
+}
+
+#formulaire3 fieldset {
+    border: 1px solid;
+    margin-top: 0.5em;
+    background-color: #fff4f4;
+    border-radius: 10px;
+}
+
+#formulaire3 legend {
+    border: 1px solid;
+    border-radius: 5px;
+    border-bottom: none;
+    background-color: #fff4f4;
+}
+
+#formulaire3 label {
+    font-weight: bold;
+    width: 8em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+#formulaire3 label#name {
+margin-top: 1.5em;
+}
+
+#formulaire3 input {
+    margin-right: 7em;
+    border: 1px solid #ffc2dc;
+    border-radius: 5px;
+    background-color: #fff4f4;
+    width: 16.4em;
+    height: 1.5em;
+}
+
+#formulaire3 select {
+    border: 1px solid #ffc2dc;
+    border-radius: 5px;
+    background-color: #fff4f4;
+    width: 16.8em;
+    height: 2em;
+    color: #ffc2dc;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+#formulaire3 label#message {
+    vertical-align: top;
+    margin-top: 1em;
+}
+
+#formulaire3 textarea {
+    margin: 1em 0em;
+    border: 1px solid #ffc2dc;
+    border-radius: 10px;
+    background-color: #fff4f4;
+}
+
+#formulaire3 input#submit {
+    height: 3em;
+    margin-left: 9em;
+    width: 7em;
+    background-color: #eb3b88;
+    color: #fff4f4;
+    font-weight: bold;
+}
+
+#formulaire4 fieldset {
+    border: 0.5em solid #53687e;
+    background-color: #495c70;
+}
+
+#formulaire4 label {
+    display: inline-block;
+    width: 11em;
+    margin-top: 0.5em;
+    color: white;
+}
+
+#formulaire4 label#name {
+    margin-top: 2em;
+}
+
+#formulaire4 label#message {
+    margin-bottom: 1em;
+}
+
+#formulaire4 input {
+    width: 24em;
+    background-color: #495c70;
+    border: none;
+    border-bottom: dashed 1px;
+    border-color: #83a4c5;
+}
+
+
+#formulaire4 button {
+    background-color: #53687e;
+    border: 1px solid #53687e;
+    border-radius: 5px;
+    height: 3em;
+    margin-left: 12.2em;
+    width: 8em;
+    color: #a5b7cb;
 }

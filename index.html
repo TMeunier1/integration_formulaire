@@ -9,21 +9,84 @@
        <main>
            <form id="formulaire1" action="" method="">
                <fieldset>
-                   <label for="fname1">Full Name</label>
-                   <input type="text" id="fname1"
-                   name="fname">
-                   <input type="text" id="fname2" name="fname">
-                   <label for="email">Email</label>
-                   <input type="email" id="email">
+                   <label id="fname" for="fname1">Full Name<em> *</em></label>
+                   <input required type="text" id="fname1"
+                   name="fname" placeholder="First">
+                   <input type="text" id="fname2" name="fname" placeholder="Last">
+                   <label for="email">Email<em> *</em></label>
+                   <input required type="email" id="email">
                    <label for="subject">Subject</label>
                    <select id="subject">
-                       <option></option>
                        <option>Advertise</option>
                        <option>test</option>
                        <option>test</option>
                    </select>
-                   <label for="message">Your Message </label>
-                   <textarea id="message" cols="66" rows="6"></textarea>
+                   <label for="message">Your Message<em> *</em> </label>
+                   <textarea required id="message" cols="66" rows="6"></textarea>
 
                    <input id="submit" type=submit>
+               </fieldset>
+           </form>
+
+           <form id="formulaire2" action="" method="">
+               <fieldset>
+                   <p id="formtitle">Provide Your Information</p>
+                   <label id="name" for="name">Name<em> *</em></label>
+                   <input required type="text" id="name">
+                   <label for="email">Email<em> *</em></label>
+                   <input required type="email" id="email">
+                   <label id= "tel" for="phone">Telephone</label>
+                   <input type="tel" id="phone1">
+                   <input type="tel" id="phone2">
+                   <input type="tel" id="phone3">
+                   <label for="regarding">Regarding</label>
+                   <select id="regarding">
+                       <option>General</option>
+                   </select>
+                   <div><label for="message" id="message">Message<em> *</em></label>
+                   <textarea required id="message" cols="40" rows="6"></textarea></div>
+                   <input type="submit" id="submit">
+               </fieldset>
+           </form>
+
+           <form id="formulaire3">
+               <fieldset>
+                   <legend>Personal</legend>
+                   <label for="name" id="name">Name<em> *</em></label>
+                   <input type="text" id="name">
+                   <label for="email">Email<em> *</em></label>
+                   <input type="email" id="mail">
+                   <label for="phone">Phone<em> *</em></label>
+                   <input type="tel" id="phone">
+                   <label for="subject">Subject</label>
+                   <select>
+                       <option>Appointment</option>
+                   </select>
+               </fieldset>
+               <fieldset>
+                   <legend>Message</legend>
+                   <label id="message" for="message">Message<em> *</em></label>
+                   <textarea id="message" cols="40" rows="7"></textarea>
+                   <input type="submit" id="submit">
+               </fieldset>
+           </form>
+
+           <form id=formulaire4>
+               <fieldset>
+                   <label for="name">Enter Your Name</label>
+                   <input type="text" id="name">
+                   <label for="email">Email Address</label>
+                   <input type="email" id="email">
+                   <label for="subject">Short Subject</label>
+                   <input type="text" id=subject>
+                   <label for="message" id="message">Message to Us</label>
+                   <input type="text" id="message">
+                   <button name="submit" id="submit">Send letter</button>
+               </fieldset>
+           </form>
+
+           <form id="formulaire5">
+               
+           </form>
+       </main>
 </html>
