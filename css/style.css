@@ -1,0 +1,46 @@
+form.formulaire1 {
+
+}
+
+fieldset {
+    width: 40em;
+}
+
+#formulaire1 label {
+    display: block;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+input {
+border: solid 1px #bebebe;
+height: 2em;
+margin: 0.5em auto;
+margin-left: 1em;
+}
+
+#formulaire1 input#fname2 {
+    margin-left: 0em;
+}
+#formulaire1 input#email {
+    width: 31.9em;
+}
+
+#formulaire1 input#submit {
+    display: block;
+    background-color: #4b99ad;
+    height: 3em;
+    color: white;
+}
+
+#formulaire1 select {
+    border: 1px solid #bebebe;
+    height: 2.5em;
+    width: 32.3em;
+    margin: 1em 0 1em 1em;
+    background-color: #dddddd;
+}
+
+#formulaire1 textarea {
+    margin-left: 1em;
+}
